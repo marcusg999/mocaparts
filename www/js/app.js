@@ -120,7 +120,7 @@ angular.module('starter', ['ionic'])
 
 
       $scope.onItemDelete = function(item) {
-        $scope.artists.splice($scope.calendar.indexOf(item), 1);
+        $scope.calendar.splice($scope.calendar.indexOf(item), 1);
       }
 
       $scope.doRefresh =function() {

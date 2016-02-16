@@ -13,6 +13,13 @@
       class="button button-icon ion-minus-circled"
       ng-click="data.showDelete = !data.showDelete; data.showReorder = false;">
     </button>
+</ion-nav-buttons>
+
+<ion-nav-buttons side="secondary">
+    <button
+      class="button button-icon ion-navicon"
+      ng-click="data.showReorder = !data.showReorder; data.showDelete = false;">
+    </button>
   </ion-nav-buttons>
 
 <ion-content class="has-subheader">
@@ -26,7 +33,8 @@
   </div><!-- day title -->
 
   <ion-list
-    show-delete="data.showDelete">
+    show-delete="data.showDelete"
+    show-reorder="data.showReorder">
 
     <ion-item ng-class="{'item-avatar':item.shortname, 'star': item.star}"
     class="item-text-wrap item-icon-right"
@@ -44,6 +52,9 @@
       <ion-option-button class="button-assertive" ng-click="onItemDelete(dayIndex, item)"><i class="icon ion-trash-a"></i></ion-option-button>
       <ion-delete-button class="ion-minus-circled" ng-click="onItemDelete(item)">
       </ion-delete-button>
+      <ion-reorder-button class="ion-navicon"
+        on-reorder="moveItem(item, $fromIndex, $toIndex)">
+      </ion-reorder-button>
     </ion-item>
   </ion-list>
 </div><!-- repeat days -->

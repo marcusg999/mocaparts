@@ -41,12 +41,10 @@
       "weekday": "Wednesday",
       "schedule": [
         {
-
-        },{
           "time": "3/27/16 11:00am-1pm",
           "shortname": "Xhou_Ta",
           "artist": "Xhou Ta",
-          "location": "Dennison Hall",
+          "room": "Dennison Hall",
           "description": "",
           "title": "Beyond the Virtual Eye"
         }
@@ -58,10 +56,9 @@
           "time": "4/23/16",
           "shortname": "Hassum_Harrod",
           "artist": "Hassum Harrod",
-          "location": "Elizabeth Hall",
+          "room": "Elizabeth Hall",
           "description": "",
           "title": "Women in Stunts EVENT"
-        },{
         }
       ]
     }
