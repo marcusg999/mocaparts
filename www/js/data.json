@@ -1,0 +1,118 @@
+{
+  "calendar": [
+    {
+      "weekday": " 3/21/16",
+      "title": "Audition || Dreamworks Demo",
+      "description": "Casting motion capture actors for a variety of principal roles on an upcoming Playstation video game. LOCATION: Los Angeles, CA 1234 VidGam Ave 11am-3pm",
+      "schedule": [
+         {
+
+          "time": "3/22/16 11:00am-1pm",
+          "shortname": "Hassum_Harrod",
+          "name": "Hassum Harrod",
+          "location": "Victoria Hall",
+          "description": "The lovely And talented Hassum Harrod will guide us into the wonderous world of artistic trapeze LOCATION: Los Angeles, CA 1234 trapeze Ave ",
+          "title": "EVENT || Art in trapeze"
+        }
+
+      ]
+    }, {
+      "weekday": "",
+      "title": "Audition || GTA Millinieum",
+      "description": "Our friends at RockStar Games are casting for their next game. From what we hear its shaping up to be their most epic yet! LOCATION: Los Angeles, CA 1234 VidGam Ave 11am-3pm",
+      "schedule": [
+        {
+          "time": "3/24/16 1:00am-4pm",
+          "shortname": "Jennifer_Jerome",
+          "artist": "MMA location",
+          "location": "Elizabeth Hall",
+          "description": "Jennifer Jerome, a native of New Orleans, leads a workshop on the art of given and receiveing a powerful Movie karate Kick! LOCATION: Los Angeles, CA 1234 Karate Kick Ave ",
+          "title": "EVENT || Karate Kickoff Session"
+        },{
+          "time": "3/26/16 11:00am-3pm",
+          "shortname": "Hillary_Goldwynn",
+          "artist": "Hillary Hewitt Goldwynn-Post",
+          "location": "Dennison Hall",
+          "description": "Hilary Goldywynn Post is mentoring Woman interested in becoming motion capture artists!  Dont miss this MeetUp oppurtunity to  ",
+          "title": "Deep Sea Wonders"
+        }
+      ]
+    }, {
+      "weekday": "Wednesday",
+      "schedule": [
+        {
+
+        },{
+          "time": "3/27/16 11:00am-1pm",
+          "shortname": "Xhou_Ta",
+          "artist": "Xhou Ta",
+          "location": "Dennison Hall",
+          "description": "",
+          "title": "Beyond the Virtual Eye"
+        }
+      ]
+    }, {
+      "weekday": "Thursday",
+      "schedule": [
+        {
+          "time": "4/23/16",
+          "shortname": "Hassum_Harrod",
+          "artist": "Hassum Harrod",
+          "location": "Elizabeth Hall",
+          "description": "",
+          "title": "Women in Stunts EVENT"
+        },{
+        }
+      ]
+    }
+  ],
+  "artists": [
+    {
+      "bio": "After studying Theatrical arts Jackamo went on to pursue a carrer as an actor and dancer. Training martial arts and acheiving notoraity in the Los angeles Capoeira community. He more recently made a move into working in the motion capture industry.  Performing in such video games as Killing floor and others.  MoCapArts is Jackamos brain child and gift to the stunt/Mo Cap Community.  ",
+      "shortname": "Jackamo_Harvey",
+      "name": "Jackamo Harvey",
+      "reknown": "Founder of MoCapArts || Stunt Man || Actor || Capoerista || Motion Capture artist"
+    },{
+      "bio": "",
+      "shortname": "Jonathan_Ferrar",
+      "name": "Jonathan G. Ferrar II",
+      "reknown": "Stunt Man || Actor || Motion Capture artist"
+    },{
+      "bio": "",
+      "shortname": "Hillary_Goldwynn",
+      "name": "Hillary Hewitt Goldwynn-Post",
+      "reknown": "Stunt Woman || Actress ||Dancer || Motion Capture artist"
+    },{
+      "bio": "",
+      "shortname": "Hassum_Harrod",
+      "name": "Hassum Harrod",
+      "reknown": "Stunt Woman || Actress || Motion Capture artist"
+    },{
+      "bio": "",
+      "shortname": "Jennifer_Jerome",
+      "name": "Jennifer Jerome",
+      "reknown": "Stunt Woman || Actress || Motion Capture artist"
+    },{
+      "bio": "",
+      "shortname": "LaVonne_LaRue",
+      "name": "LaVonne L. LaRue",
+      "reknown": "Stunt Man || Actor ||Dancer || Motion Capture artist"
+    },{
+      "bio": "",
+      "shortname": "Constance_Smith",
+      "name": "Constance Olivia Smith",
+      "reknown": "Stunt Woman || Actress ||Dancer || Motion Capture artist"
+    },{
+      "bio": "",
+      "shortname": "Riley_Rewington",
+      "name": "Riley Rudolph Rewington",
+      "reknown": "Stunt Man || Actor || Motion Capture artist"
+    },{
+      "bio": "",
+      "shortname": "Xhou_Ta",
+      "name": "Xhou Ta",
+      "reknown": "Stunt Man || Actor ||Dancer || Motion Capture artist"
+    }
+  ]
+}
+
