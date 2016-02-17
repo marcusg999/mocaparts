@@ -12,7 +12,7 @@
 }
 
 .splash {
-  background: url(../img/skyline.jpg) no-repeat center center fixed;
+  background: url(../img/mocapartslogo.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -68,8 +68,8 @@
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
+    padding-bottom: 76.25%;
+    padding-top: 70px; height: 0; overflow: hidden;
 }
 
 .video-container iframe, .video-container object, .video-container embed {

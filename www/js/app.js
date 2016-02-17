@@ -1,8 +1,6 @@
-// Ionic Starter App
 
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
+
+
 angular.module('starter', ['ionic'])
 
 .run(function($ionicPlatform) {
@@ -83,6 +81,15 @@ angular.module('starter', ['ionic'])
         }
       }
     })
+.state('tabs.admin', {
+      url: '/admin',
+      views: {
+        'admin-tab' : {
+          templateUrl: 'templates/admin.html',
+
+        }
+      }
+    })
 
 
   $urlRouterProvider.otherwise('/tab/home');
@@ -109,6 +116,10 @@ angular.module('starter', ['ionic'])
         item.star = !item.star;
       }
 
+      $scope.moveItem = function(item, fromIndex, toIndex) {
+        $scope.calendar.splice(fromIndex, 1);
+        $scope.calendar.splice(toIndex, 0, item);
+      };
     });
 }])
 
@@ -134,9 +145,5 @@ angular.module('starter', ['ionic'])
         item.star = !item.star;
       }
 
-      $scope.moveItem = function(item, fromIndex, toIndex) {
-        $scope.artists.splice(fromIndex, 1);
-        $scope.artists.splice(toIndex, 0, item);
-      };
     });
 }]);
