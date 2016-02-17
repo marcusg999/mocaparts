@@ -65,7 +65,7 @@ angular.module('starter', ['ionic'])
         }
       }
     })
-.state('tabs.information', {
+    .state('tabs.information', {
       url: '/information',
       views: {
         'information-tab' : {
@@ -74,7 +74,7 @@ angular.module('starter', ['ionic'])
         }
       }
     })
-.state('tabs.youtube', {
+    .state('tabs.youtube', {
       url: '/youtube',
       views: {
         'youtube-tab' : {
