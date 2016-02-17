@@ -81,7 +81,7 @@ angular.module('starter', ['ionic'])
         }
       }
     })
-.state('tabs.admin', {
+.state('tabs.admin.html', {
       url: '/admin',
       views: {
         'admin-tab' : {
