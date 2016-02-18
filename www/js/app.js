@@ -1,6 +1,4 @@
 
-
-
 angular.module('starter', ['ionic'])
 
 .run(function($ionicPlatform) {
@@ -147,3 +145,5 @@ angular.module('starter', ['ionic'])
 
     });
 }]);
+
+
