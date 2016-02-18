@@ -93,6 +93,7 @@ angular.module('starter', ['ionic'])
       views: {
         'update-tab' : {
           templateUrl: 'templates/update.html',
+          controller: 'CalendarController'
 
         }
       }
