@@ -79,17 +79,24 @@ angular.module('starter', ['ionic'])
         }
       }
     })
-.state('tabs.admin.html', {
+.state('tabs.admin', {
       url: '/admin',
       views: {
         'admin-tab' : {
           templateUrl: 'templates/admin.html',
+          controller: 'CalendarController'
+        }
+      }
+    })
+.state('tabs.update', {
+      url: '/update',
+      views: {
+        'update-tab' : {
+          templateUrl: 'templates/update.html',
 
         }
       }
     })
-
-
   $urlRouterProvider.otherwise('/tab/home');
 })
 

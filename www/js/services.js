@@ -1,63 +1,59 @@
-angular.module('starter.services', [])
+// angular.module('starter.services', [])
 
-.service('APIInterceptor', function($rootScope, $q) {
-  var service = this;
+// .service('APIInterceptor', function($rootScope, $q) {
+//   var service = this;
 
-  service.responseError = function(response) {
-    if (response.status === 401) {
-      $rootScope.$broadcast('unauthorized');
-    }
-    return $q.reject(response);–
-  };
-})
+//   service.responseError = function(response) {
+//     if (response.status === 401) {
+//       $rootScope.$broadcast('unauthorized');
+//     }
+//     return $q.reject(response);–
+//   };
+// })
 
-.service('ItemsModel', function ($http, Backand) {
-  var service = this,
-      baseUrl = '/1/objects/',
-      objectName = 'items/';
+// .service('ItemsModel', function ($http) {
+//   var service = this,
+//       baseUrl = '/1/days/',
+//       dayName = 'items/';
 
-  function getUrl() {
-    return Backand.getApiUrl() + baseUrl + objectName;
-  }
+//   function getUrlForId(id) {
+//     return getUrl() + id;
+//   }
 
-  function getUrlForId(id) {
-    return getUrl() + id;
-  }
+//   service.all = function () {
+//     return $http.get(getUrl());
+//   };
 
-  service.all = function () {
-    return $http.get(getUrl());
-  };
+//   service.fetch = function (id) {
+//     return $http.get(getUrlForId(id));
+//   };
 
-  service.fetch = function (id) {
-    return $http.get(getUrlForId(id));
-  };
+//   service.create = function (day) {
+//     return $http.post(getUrl(), day);
+//   };
 
-  service.create = function (object) {
-    return $http.post(getUrl(), object);
-  };
+//   service.update = function (id, day) {
+//     return $http.put(getUrlForId(id), day);
+//   };
 
-  service.update = function (id, object) {
-    return $http.put(getUrlForId(id), object);
-  };
+//   service.delete = function (id) {
+//     return $http.delete(getUrlForId(id));
+//   };
+// })
 
-  service.delete = function (id) {
-    return $http.delete(getUrlForId(id));
-  };
-})
+// .service('LoginService', function(Backand) {
+//   var service = this;
 
-.service('LoginService', function(Backand) {
-  var service = this;
+//   service.signin = function(email, password, appName) {
 
-  service.signin = function(email, password, appName) {
+//     //set the app name of Backand. In your app copy this to .config section with hard coded app name
+//     Backand.setAppName(appName);
 
-    //set the app name of Backand. In your app copy this to .config section with hard coded app name
-    Backand.setAppName(appName);
+//     //call Backand for sign in
+//     return Backand.signin(email, password);
+//   };
 
-    //call Backand for sign in
-    return Backand.signin(email, password);
-  };
-
-  service.signout = function() {
-    return Backand.signout();
-  };
-});
+//   service.signout = function() {
+//     return Backand.signout();
+//   };
+// });

@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('LoginCtrl', function(Backand, $state, $rootScope, LoginService){
+.controller('LoginCtrl', function($state, $rootScope, LoginService){
   var login = this;
 
   function signin() {
@@ -35,23 +35,23 @@ angular.module('starter.controllers', [])
         });
   }
 
-  function create(object) {
-    ItemsModel.create(object)
+  function create(day) {
+    ItemsModel.create(day)
         .then(function (result) {
           cancelCreate();
           getAll();
         });
   }
 
-  function update(object) {
-    ItemsModel.update(object.id, object)
+  function update(day) {
+    ItemsModel.update(day.id, day)
         .then(function (result) {
           cancelEditing();
           getAll();
         });
   }
 
-  function deleteObject(id) {
+  function deleteday(id) {
     ItemsModel.delete(id)
         .then(function (result) {
           cancelEditing();
@@ -60,11 +60,11 @@ angular.module('starter.controllers', [])
   }
 
   function initCreateForm() {
-    vm.newObject = { name: '', description: '' };
+    vm.newday = { name: '', description: '' };
   }
 
-  function setEdited(object) {
-    vm.edited = angular.copy(object);
+  function setEdited(day) {
+    vm.edited = angular.copy(day);
     vm.isEditing = true;
   }
 
@@ -82,14 +82,14 @@ angular.module('starter.controllers', [])
     vm.isCreating = false;
   }
 
-  vm.objects = [];
+  vm.days = [];
   vm.edited = null;
   vm.isEditing = false;
   vm.isCreating = false;
   vm.getAll = getAll;
   vm.create = create;
   vm.update = update;
-  vm.delete = deleteObject;
+  vm.delete = deleteDay;
   vm.setEdited = setEdited;
   vm.isCurrent = isCurrent;
   vm.cancelEditing = cancelEditing;
