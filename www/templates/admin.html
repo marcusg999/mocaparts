@@ -1,16 +1,23 @@
-
-<form method="post" onsubmit="javascript:document.location='/admin' + $('login') + ':' + $('pass');">
 </br>
 </br>
 </br>
-<h2>Admin login</h2>
+<h2>Admin Login</h2>
 </br>
 </br></br>
-   <label class="item item-input">
-    <span class="input-label">Name</span>
-    <input type="text">
-  </label>
-    <span class="input-label">Password</span>
-    <input type="password">
-    <input type="submit" value="submit"/>
-</form>
+<div class="list">
+<div class="item item-input-inset">
+    <ul>
+    <label class="item-input-wrapper">
+      <input type="text" placeholder="Name">
+    </label>
+    </ul>
+    <ul>
+    <label class="item-input-wrapper">
+      <input type="password" placeholder="password">
+    </label>
+    </ul>
+    <button class="button button-small">
+      Submit
+    </button>
+  </div>
+</div>
