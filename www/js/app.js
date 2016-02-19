@@ -13,8 +13,6 @@ angular.module('starter', ['ionic'])
     }
   });
 })
-
-
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('tabs', {
@@ -121,11 +119,6 @@ angular.module('starter', ['ionic'])
       $scope.toggleStar = function(item) {
         item.star = !item.star;
       }
-
-      $scope.moveItem = function(item, fromIndex, toIndex) {
-        $scope.calendar.splice(fromIndex, 1);
-        $scope.calendar.splice(toIndex, 0, item);
-      };
     });
 }])
 

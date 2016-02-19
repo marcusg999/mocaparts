@@ -1,6 +1,6 @@
 var app = angular.module('starter.controllers', ['ionic']);
 
-app.controller('ItemCtrl', ['$scope', 'ItemsFactory', 'ItemFactory', '$location',
+app.controller('ItemListCtrl', ['$scope', 'ItemsFactory', 'ItemFactory', '$location',
     function ($scope, ItemsFactory, ItemFactory, $location) {
 
         // callback for ng-click 'editItem':
