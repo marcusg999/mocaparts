@@ -1,7 +1,7 @@
-router.route('/users/').get(UsersController.all);
-router.route('/users/create').post(UsersController.create);
-router.route('/users/:id/delete').delete(UsersController.delete);
-router.route('/users/:username/:password/show').get(UsersController.show);
-router.route('/users/:id/edit').put(UsersController.edit);
+router.route('/users/').get(itemsController.all);
+router.route('/items/create').post(itemsController.create);
+router.route('/items/:id/delete').delete(itemsController.delete);
+router.route('/items/:itemname/:password/show').get(itemsController.show);
+router.route('/items/:id/edit').put(itemsController.edit);
 // Exports route so that other pages can grab this file
 module.exports = router
