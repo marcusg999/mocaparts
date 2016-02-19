@@ -9,4 +9,5 @@ Future features include creating full user oauth and profile capabilities. Hosti
 
 link to app: http://ec2-52-37-2-77.us-west-2.compute.amazonaws.com:8000/www/#/tab/home
 link to trello:https://trello.com/b/NhirxiO1/mo-cap-arts-agency
+
 link to wireframes: http://imgur.com/a/eD1yd
